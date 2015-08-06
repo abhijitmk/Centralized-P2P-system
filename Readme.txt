@@ -1,4 +1,11 @@
-This is a centralized P2P system where the information about the RFCs ( files ) are maintained in a centralized server, but only the clients/peers have the actual RFCs.
+This is a P2P system with a centralized index - developed in Java.
+
+The information about the which clients have which RFCs ( files ) are maintained in a centralized server, but only the clients/peers have the actual RFCs.
+
+When a peer connects to the server, it gives it the information about the RFCs it has. The server maintains this information database for all the set of peers.
+The peer can query the server to get the info about which peer has/which peers have the RFC it wants and then download from that peer.
+
+Concurrency is handled using multi-threading at both server as well as peers.
 
 
 There are 2 files with code

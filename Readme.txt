@@ -1,5 +1,4 @@
-Name 1: Abhijit M Kulkarni, Student ID 1: 200066525, Unity ID : amkulkar
-Name 2: Deepthi Satyanarayana, Student ID 2: 200065179, Unity ID : dsatyan
+This is a centralized P2P system where the information about the RFCs ( files ) are maintained in a centralized server, but only the clients/peers have the actual RFCs.
 
 
 There are 2 files with code
@@ -43,7 +42,7 @@ Example :
 
 RFC1234-Topic3.txt
 
-Here I am providing 2 folders with RFCs.
+Here I  have providing 2 folders with RFCs.
 
 You can use the same
 
